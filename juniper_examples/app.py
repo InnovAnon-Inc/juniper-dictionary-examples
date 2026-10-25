@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 import threading
 from flask import Flask, jsonify, request
-from juniper_examples.examples import (
+from .examples import (
     get_cached_data,
     process_word_example,
     llm_example_worker,
